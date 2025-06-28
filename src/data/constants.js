@@ -8,7 +8,7 @@ export const Bio = {
   description:
     "I am a passionate AI enthusiast dedicated to transforming innovative ideas into reality, leveraging a strong foundation in Machine Learning, Deep Learning, Computer Vision, NLP, Large Language Model, Data analysis, MLOPS and Generative AI to create impactful solutions that redefine the future of technology.",
   github: "https://github.com/mariswarycharan/",
-  resume: "mailto:mariswarycharan@gmail.com",
+  resume: "https://drive.google.com/file/d/1jnRZFxReVqwcddEiqrEzR2UkIIf4XPrF/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/charanaa/",
   twitter: "",
   insta: "",
@@ -69,44 +69,6 @@ export const skills = [
     ],
   },
   {
-    title: "Programming Languages",
-    skills: [
-      { 
-        name: "Python", 
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" 
-      },
-      { 
-        name: "JavaScript", 
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" 
-      },
-      { 
-        name: "C", 
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" 
-      },
-    ],
-  },
-  {
-    title: "Databases",
-    skills: [
-      { 
-        name: "MySQL", 
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" 
-      },
-      { 
-        name: "MongoDB", 
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" 
-      },
-      { 
-        name: "PostgreSQL", 
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" 
-      },
-      { 
-        name: "Redis", 
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" 
-      },
-    ],
-  },
-  {
     title: "Frameworks & Tools",
     skills: [
       { 
@@ -156,6 +118,44 @@ export const skills = [
     ],
   },
   {
+    title: "Programming Languages",
+    skills: [
+      { 
+        name: "Python", 
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" 
+      },
+      { 
+        name: "JavaScript", 
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" 
+      },
+      { 
+        name: "C", 
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" 
+      },
+    ],
+  },
+  {
+    title: "Databases",
+    skills: [
+      { 
+        name: "MySQL", 
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" 
+      },
+      { 
+        name: "MongoDB", 
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" 
+      },
+      { 
+        name: "PostgreSQL", 
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" 
+      },
+      { 
+        name: "Redis", 
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" 
+      },
+    ],
+  },
+  {
     title: "Soft Skills",
     skills: [
       { 
@@ -170,10 +170,11 @@ export const skills = [
         name: "Creative Thinking", 
         image: "https://cdn.jsdelivr.net/npm/heroicons@2.0.18/24/outline/light-bulb.svg" 
       },
-      { 
-        name: "Communication (Written & Verbal)", 
-        image: "https://cdn.jsdelivr.net/npm/heroicons@2.18/24/outline/chat-bubble-left-right.svg" 
-      },
+      {
+      name: "Communication (Written & Verbal)",
+      image: "https://cdn-icons-png.flaticon.com/512/1067/1067566.png"
+      }
+      ,
     ],
   },
 ];
@@ -219,7 +220,7 @@ export const experiences = [
     id: 1,
     role: "Freelance AI Developer",
     company: "Turing (Microsoft, Amazon, Meta project)",
-    date: "2023",
+    date: "2024",
     desc: "🚀 Selected as a specialized AI developer for an exclusive high-stakes project involving tech giants Microsoft, Amazon, and Meta through Turing's elite network. Pioneered the implementation of Reinforcement Learning from Human Feedback (RLHF) techniques to enhance Large Language Model performance, working with cutting-edge transformer architectures and advanced training methodologies. Developed custom reward models, fine-tuned pre-trained models using distributed computing resources, and implemented sophisticated human feedback loops that improved model alignment by 35%. Collaborated with senior engineers from Fortune 500 companies, contributing to research that impacts millions of users across major AI platforms. 🤖",
     skills: ["RLHF", "LLM", "Reinforcement Learning", "Transformers", "PyTorch", "Distributed Computing", "Model Fine-tuning"],
   },
@@ -257,6 +258,8 @@ export const projects = [
     description: "🧘‍♀️ Pioneered an autonomous AI-powered yoga instruction system that revolutionizes personal fitness through computer vision and machine learning. Developed a sophisticated pose recognition engine using MediaPipe and custom-trained CNN models, achieving 96% accuracy across 50+ yoga poses. Implemented real-time feedback mechanisms, posture correction algorithms, and personalized workout recommendations. The system features advanced body landmark detection, 3D pose estimation, and adaptive learning capabilities that improve with user interaction. Successfully deployed as a mobile application with 10,000+ active users, generating detailed progress analytics and personalized yoga journey insights. 🚀",
     tags: ["AI", "Computer Vision", "Automation", "MediaPipe", "CNN", "Mobile Development", "Fitness Tech"],
     category: "machine learning",
+    github: "https://github.com/mariswarycharan/Knowinmy",
+    webapp: "https://drive.google.com/file/d/1CYDnmJV5-r0DI6CjcIv_53im-y5Jtj2f/view?usp=sharing",
   },
   {
     id: 1,
@@ -265,6 +268,8 @@ export const projects = [
     description: "👨‍⚕️ Engineered a groundbreaking AI-powered telemedicine platform designed to bridge the healthcare gap between urban and rural communities. Developed a comprehensive diagnostic support system utilizing advanced NLP models for symptom analysis, computer vision for medical image interpretation, and expert systems for evidence-based treatment recommendations. Integrated multilingual chatbot capabilities supporting 8 regional languages, offline diagnostic modes for remote areas, and secure patient data management. The platform achieved 89% diagnostic accuracy across common conditions, served 25,000+ patients in rural areas, and reduced consultation costs by 70%. Features include prescription generation, appointment scheduling, and integration with local healthcare providers. 🏥",
     tags: ["AI", "Healthcare", "NLP", "Telemedicine", "Computer Vision", "Multilingual", "Rural Technology"],
     category: "machine learning",
+    github: "https://github.com/mariswarycharan/Digital_Doctor",
+    webapp: "https://kumaragurudtsteam-my.sharepoint.com/:v:/g/personal/charan_21ad_kct_ac_in/EdEXxkutladJs2lUTuKmNTMBb_5McmJWyYy7ZFJJmEj_JA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=TOzVqc",
   },
   {
     id: 2,
@@ -273,6 +278,8 @@ export const projects = [
     description: "🔍 Transformed traditional jewelry manufacturing processes by developing an AI-driven automated beads counting system for the Emerald Jewel Industry. Implemented advanced computer vision algorithms using YOLO v8 for object detection, combined with sophisticated image segmentation techniques to achieve 98% counting accuracy even with overlapping and irregularly shaped beads. Engineered custom pattern recognition models that distinguish between different bead types, sizes, and qualities. The system processes 1000+ images per hour, reducing manual counting time by 85% and eliminating human error. Deployed across 5 manufacturing facilities, resulting in $500K+ annual cost savings and improved production efficiency. 💎",
     tags: ["Computer Vision", "Pattern Recognition", "Industrial AI", "YOLO", "Image Processing", "Manufacturing", "Quality Control"],
     category: "machine learning",
+    github: "https://github.com/mariswarycharan/Beads-Counting-System.git",
+    webapp: "https://drive.google.com/file/d/12t3IM-BCAPqUy5NGTrYgK-OAGyVvzuS2/view?usp=sharing",
   },
   {
     id: 3,
@@ -281,6 +288,7 @@ export const projects = [
     description: "📺 Developed a comprehensive 360-degree media intelligence platform for the Government of India, providing real-time monitoring and analysis of news coverage across regional media outlets. Engineered a sophisticated web scraping infrastructure capable of processing 10,000+ articles daily from 200+ news sources in 15 regional languages. Implemented advanced NLP models for automatic news categorization, sentiment analysis with 92% accuracy, and trend detection algorithms. Built interactive dashboards featuring real-time analytics, sentiment tracking, and automated alert systems. The platform successfully identified critical news trends, enabled proactive government response strategies, and secured recognition at Smart India Hackathon 2023. Features include multilingual support, bias detection, and comprehensive reporting capabilities. 🏛️",
     tags: ["AI", "Media Monitoring", "Sentiment Analysis", "Web Scraping", "NLP", "Government Tech", "Data Visualization"],
     category: "machine learning",
+    github: "https://github.com/mariswarycharan/PIB",
   },
   {
     id: 4,
@@ -289,6 +297,8 @@ export const projects = [
     description: "🤖 Architected and deployed a production-grade conversational AI system for Yugam, serving 14,000+ concurrent users with 99.9% uptime. Implemented cutting-edge Retrieval-Augmented Generation (RAG) architecture using Llama 3 as the foundation model, integrated with Langchain for sophisticated conversation flow management and Faiss vector database for lightning-fast semantic search. Developed advanced model optimization techniques including quantization and pruning, reducing inference time by 50% while maintaining response quality. Engineered scalable deployment infrastructure using Docker containers and Kubernetes orchestration, supporting auto-scaling based on user demand. The system handles 100,000+ queries daily with context-aware responses, multi-turn conversations, and personalized user experiences. 💬",
     tags: ["Chatbot", "RAG", "Llama 3", "Langchain", "Faiss DB", "Model Optimization", "Kubernetes", "Production AI"],
     category: "machine learning",
+    github: "",
+    webapp: "https://yugam.in/chat/",
   },
   {
     id: 5,
@@ -297,6 +307,8 @@ export const projects = [
     description: "🤖 Spearheaded AI integration for an autonomous competition robot in Robocon 2024, developing a comprehensive navigation and decision-making system. Implemented state-of-the-art object detection using YOLOv8 with custom training on competition-specific objects, achieving 95% detection accuracy in dynamic environments. Engineered sophisticated path planning algorithms including A* pathfinding with dynamic obstacle avoidance, real-time re-routing capabilities, and optimal trajectory optimization. Developed a reusable Python package 'RoboCore' for robot control systems, featuring modular architecture, sensor fusion, and real-time communication protocols. The robot successfully navigated complex courses, demonstrated autonomous decision-making under pressure, and secured top-5 position in the national competition. 🏆",
     tags: ["Robotics", "Object Detection", "Path Planning", "Python", "Autonomous Systems", "Sensor Fusion", "Competition Robotics"],
     category: "machine learning",
+    github: "https://github.com/mariswarycharan/Robocon_24_version.git",
+    webapp: "https://pypi.org/project/Robocon-24/",
   },
   {
     id: 6,
@@ -305,6 +317,8 @@ export const projects = [
     description: "🛡️ Engineered a comprehensive deepfake detection ecosystem to combat the growing threat of manipulated media content. Developed a sophisticated AI pipeline using Vision Transformers and CNN architectures, achieving 85% detection accuracy across various deepfake generation techniques. Built a full-stack web application featuring real-time media analysis, batch processing capabilities, and RESTful API integration for seamless social media platform integration. Implemented advanced preprocessing techniques including facial landmark detection, temporal consistency analysis, and multi-modal feature extraction. The platform features automated flagging systems, user reporting mechanisms, and detailed forensic analysis reports. Successfully processed 500,000+ media files and prevented the spread of 10,000+ manipulated content pieces. 🔍",
     tags: ["Deepfake Detection", "Transformers", "OpenCV", "Flask", "PostgreSQL", "React", "Cybersecurity", "Media Forensics"],
     category: "machine learning",
+    github: "https://github.com/mariswarycharan/DeepTracers.git",
+
   },
   {
     id: 7,
@@ -313,6 +327,8 @@ export const projects = [
     description: "🧠 Developed a revolutionary AI-powered neurological diagnostic system that transforms brain tumor detection and analysis in clinical settings. Implemented a sophisticated deep learning pipeline combining U-Net architecture for precise tumor segmentation with ResNet-based classification models for tumor type prediction. Engineered advanced preprocessing techniques including skull stripping, intensity normalization, and multi-modal MRI fusion (T1, T2, FLAIR sequences). The system achieved 94% segmentation accuracy and 91% classification accuracy across 4 tumor types, processing full brain scans in under 2 minutes. Integrated with hospital PACS systems, featuring DICOM support, radiologist annotation tools, and comprehensive reporting capabilities. Successfully validated with 5,000+ clinical cases and adopted by 3 medical institutions. 🏥",
     tags: ["AI", "Deep Learning", "Medical Imaging", "U-Net", "ResNet", "DICOM", "Clinical AI", "Neuroimaging"],
     category: "machine learning",
+    github: "https://github.com/mariswarycharan/Brain-Tumor-Segmentation.git",
+    webapp: "https://drive.google.com/file/d/1X7q2jHuy7Xkn0kusHJcKbEwDWAHoqVTp/view?usp=sharing",
   },
   {
     id: 8,
@@ -327,7 +343,6 @@ export const projects = [
 export const certificates = [
   { name: "Machine Learning Certificate", issuer: "IBM Developer Skills Network" },
   { name: "Deep Learning Fundamentals", issuer: "IBM Developer Skills Network" },
-  { name: "Data Analysis Certificate", issuer: "IBM Developer Skills Network" },
   { name: "Foundational Generative AI", issuer: "ineuron.ai" },
   { name: "TensorFlow Developer Professional Certificate", issuer: "DeepLearning.AI" },
   { name: "IBM Data Analyst Professional Certificate", issuer: "IBM" },
